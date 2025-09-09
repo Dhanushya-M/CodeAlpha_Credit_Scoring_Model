@@ -28,45 +28,21 @@ It applies **Machine Learning classification models** to determine whether an ap
 - Scikit-learn  
 - XGBoost  
 ---
-## 🚀 How to Run
+## 📊 Results
 
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/<your-username>/German-Credit-Risk-Prediction.git
-cd German-Credit-Risk-Prediction
+- Random Forest achieved the best performance with high accuracy.
+- Key influencing factors: laufkont (account balance), hoehe (loan amount), alter (age), and beszeit (employment history).
 
-2️⃣ Install Dependencies
-pip install -r requirements.txt
+## 🔮 Future Work
 
-3️⃣ Open Notebook
-jupyter notebook notebooks/credit_risk_model.ipynb
+- Deploy as a Flask/Django Web App for loan officers.
 
+- Use SHAP values / LIME for explainable AI.
 
-or run on Google Colab.
-
-📊 Results
-
-Random Forest achieved the best performance with high accuracy.
-
-Key influencing factors: laufkont (account balance), hoehe (loan amount), alter (age), and beszeit (employment history).
-
-🔮 Future Work
-
-Deploy as a Flask/Django Web App for loan officers.
-
-Use SHAP values / LIME for explainable AI.
-
-Explore Deep Learning (ANN) for credit scoring.
-
-👩‍💻 Author
-
-Your Name
-
-🌐 LinkedIn
-
-📧 your.email@example.com
+- Explore Deep Learning (ANN) for credit scoring.
 
 ---
+
 # 📌 requirements.txt
 ```txt
 pandas
