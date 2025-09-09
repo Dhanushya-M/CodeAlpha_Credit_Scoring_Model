@@ -33,6 +33,9 @@ It applies **Machine Learning classification models** to determine whether an ap
 - Random Forest achieved the best performance with high accuracy.
 - Key influencing factors: laufkont (account balance), hoehe (loan amount), alter (age), and beszeit (employment history).
 
+  ---
+  
+
 ## 🔮 Future Work
 
 - Deploy as a Flask/Django Web App for loan officers.
